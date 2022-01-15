@@ -1,0 +1,214 @@
+@charset "utf-8";
+@font-face {
+    font-family: Moon-Bold;
+    src: url('Moon Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Moon-Light;
+    src: url('Moon Light.otf') format('opentype');
+}
+
+/*
+    CobraCatalog
+	COMP2680
+	Web Project
+
+    Author: Gavin M.D. Edwards & Matthew W. Noel
+    Date:   October 8, 2021
+
+    Filename: main.css
+*/
+
+/* HTML Styles */
+
+html {
+    background: radial-gradient(circle, #9a979e, #535260) fixed;
+}
+
+/* Page Body Styles */
+
+body {
+    color: white;
+}
+
+/* Body Header Styles */
+
+#logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 480px;
+}
+
+header
+{
+    margin-bottom: 20px;
+}
+
+
+nav {
+    max-width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-color: #535261;
+    box-shadow: 0 5px 10px #404047;
+
+    font-family: "Moon-Light", sans-serif;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    display: inline-block;
+    width: 200px;
+
+    text-align: center;
+    font-size: 20px;
+}
+
+nav li:hover {
+    background-color: #7a7b83;
+}
+
+#catalog {
+    font-weight: 900;
+}
+
+nav a {
+    display: inline-block;
+    padding: 5px 0;
+    width: 100%;
+
+    color: white;
+    text-decoration: none;
+}
+
+#navicon {
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+
+    #navicon {
+        display: block;
+
+        font-size: 20pt;
+        text-align: left;
+    }
+
+    #navicon i {
+        padding: 2px;
+        margin: 2px 10px;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav li {
+        padding-left: 10px;
+
+        text-align: left;
+    }
+
+    #navicon:hover+ul, nav ul:hover {
+        display: block;
+    }
+
+    nav li {
+        width: 100%;
+    }
+}
+
+/* Footer Styles */
+
+footer
+{
+    margin-top:35px;
+}
+
+#email
+{
+    font-family: "Moon-Light", sans-serif;
+    background-color: #535261;
+    text-align: center;
+    box-shadow: 0 5px 10px #404047;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 275px;
+}
+
+#emailBox
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    vertical-align: middle;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+#buttons
+{
+    display: inline-block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.author {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+    max-width: 99%;
+    margin: 0 auto 10px;
+
+    background-color: #535261;
+    box-shadow: 0 5px 10px #404047;
+}
+
+.copyright {
+    flex: 0 0 300px;
+
+    margin: auto 0;
+
+    text-align: center;
+    font-size: 20px;
+    font-family: "Moon-Light", sans-serif;
+}
+
+.socials {
+    flex: 0 0 300px;
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.socials > * {
+    flex: 1 1 24px;
+}
+
+.socials > *:hover {
+    background-color: #7a7b83;
+}
+
+.socials img {
+    margin: 4px auto;
+    display: block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}

@@ -1,0 +1,191 @@
+<!--
+  ~ Copyright © 2021 Gavin M. D. Edwards, Matthew W. Noel
+  ~
+  ~ CobraCatalog
+  ~ COMP2680
+  ~ Web Project
+  ~
+  ~ Author: Gavin M. D. Edwards, Matthew W. Noel
+  ~ Date:   October 18, 2021
+  ~
+  ~  Filename: home.html
+  -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>CobraCatalog - Home</title>
+    <link rel="stylesheet" href="css/all.css"/>
+    <link rel="shortcut icon" href="icon.png"/>
+    <link rel="stylesheet" href="reset.css"/>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="homestyle.css"/>
+    <script src="home.js" defer> </script>
+</head>
+
+<body>
+<header>
+    <div id="logo">
+        <a href="home.html">
+            <img alt="CobraMode Miniatures" src="cobramode.png"/>
+        </a>
+    </div>
+    <nav>
+        <a id="navicon" href="#">
+            <i class="fas fa-bars"></i>
+            Menu
+        </a>
+        <ul>
+            <li id="catalog">
+                <a href="Catalog/catalog.html">
+                    Catalog
+                </a>
+            </li>
+            <li>
+                <a href="https://www.etsy.com/ca/shop/DarthPackman">
+                    Etsy <i class="fas fa-xs fa-external-link-alt"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.cobramode.com/">
+                    Website <i class="fas fa-xs fa-external-link-alt"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.patreon.com/cobramode">
+                    Patreon <i class="fas fa-xs fa-external-link-alt"></i>
+                </a>
+            </li>
+            <li>
+                <a href="https://www.myminifactory.com/users/cobramode">
+                    MyMiniFactory <i class="fas fa-xs fa-external-link-alt"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<section>
+    <div class="banner">
+        <a href="https://www.patreon.com/posts/november-release-58127660">
+            <img class="mySlides" alt="November Banner" src="Nov2021.png"/>
+        </a>
+        <a href="https://www.patreon.com/posts/october-release-56829920">
+            <img class="mySlides" alt="October Banner" src="Oct2021.jpg"/>
+        </a>
+        <a href="https://www.patreon.com/posts/september-55611601">
+            <img class="mySlides" alt="September Banner" src="Sept2021.jpg"/>
+        </a>
+    </div>
+
+    <div id="countdown">
+        <p>Time left to grab the current release!<br /></p>
+        <div><span id="days">58</span><br />Days</div>
+        <div><span id="hrs">10</span><br />Hours</div>
+        <div><span id="mins">14</span><br />Minutes</div>
+        <div><span id="secs">48</span><br />Seconds</div>
+    </div>
+
+    <article>
+        <h1>About Cobramode</h1>
+        <p>
+            CobraMode Miniatures creates unique, fun, and artistic sculpts every month for home 3d printing, tabletop
+            gaming, and hobby painting!
+            They are Erin and Andrea, two creative professionals making 3D models for tabletop games.
+            Both of them have worked in video games, Erin as a 3D artist and Andrea as a 2D artist.
+            Using there love of character design, they created a Patreon to make 3d printable miniatures for your D&D
+            adventures, armies, or collections.
+        </p>
+    </article>
+
+    <article>
+        <h1>Eye for balance, silhouette, and detail</h1>
+        <p>
+            As artists who have worked with both traditional and digital media, They try their best to put artistic
+            principles into action with each sculpt, paying attention to the silhouette, sense of weight and balance,
+            and special character details that make each piece a work of art.
+            Erin’s unique sculpting style and ideas blend together with Andrea’s concepts for details and poses to
+            create a collaborative character full of life!
+        </p>
+    </article>
+
+    <article>
+        <h1>Professional Pre-Supports</h1>
+        <p>
+            All their minis come with both pre-supported and unsupported versions, so you can just slice and print.
+            They also have a dedicated Support channel in their Discord to help you with troubleshooting and dialing in
+            settings to get perfect minis every time.
+            Their supports blend printability with ease of removal, and leave little to no damage on the fine details of
+            the sculpts.
+            All their newer files are tested by Atlas3D, who provides editable. LYS support files in case you want to
+            change the supports to better suit your printer and resin.
+            They also have D&D 5E Stats for each mini (currently catching up from January to May as their Statmaker, Ben
+            Green, is on temporary hiatus).
+            Use the lore and backstory snippets to guide your campaigns, and use the unique custom stat blocks to create
+            fun and original encounters!
+            To see all the lore in one place, read the CobraCompendium guide which details the setting of the CobraMode
+            Universe.
+        </p>
+    </article>
+
+    <article>
+        <h1>Vibrant Community of Artist & Painters</h1>
+        <p>
+            Their patrons say that they have the friendliest miniatures Discord around, and they believe it.
+            They have an active community of 3d modelers, artists, and painters in their channel, all ready to share
+            their
+            paints, comments/critiques, and tips.
+            They also have our Cobra Corps Painting Club, which picks a CobraMode miniature each month to paint together
+            weekly!
+            They're so happy to provide a space where creative people can interact with each other, and it’s also a
+            great
+            space to ask them questions about 3d modeling, get feedback on your art, or just show off your latest work.
+        </p>
+    </article>
+</section>
+
+<footer>
+    <form id="email" action="#">
+        <div id="emailBox">
+            <input name="Email" id="mail" placeholder="Email Address" required type="email"/>
+        </div>
+
+        <div id="buttons">
+            <input type="submit" value="Subscribe"/>
+        </div>
+    </form>
+
+    <div class="author">
+        <div class="copyright">
+            &copy; 2021 Gavin M.D. Edwards
+        </div>
+        <div class="socials">
+            <a href="https://github.com/DarthPackman">
+                <img class="social" alt="Github" src="GitHub.png"/>
+            </a>
+            <a href="https://twitter.com/DarthPackman">
+                <img class="social" alt="Twitter" src="Twitter.png"/>
+            </a>
+            <a href="https://www.tiktok.com/@darthpackman">
+                <img class="social" alt="Tiktok" src="Tiktok.png"/>
+            </a>
+            <a href="https://www.instagram.com/darthpackman/">
+                <img class="social" alt="Instagram" src="Instagram.png"/>
+            </a>
+        </div>
+    </div>
+
+    <div class="author">
+        <div class="copyright">
+            &copy; 2021 Matthew W. Noel
+        </div>
+        <div class="socials">
+            <a href="https://github.com/UltraHex">
+                <img class="social" alt="Github" src="GitHub.png"/>
+            </a>
+        </div>
+    </div>
+</footer>
+</body>
+</html>

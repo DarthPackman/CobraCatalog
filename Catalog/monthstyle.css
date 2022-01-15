@@ -1,0 +1,64 @@
+@charset "utf-8";
+@font-face {
+	font-family: Moon-Bold;
+	src: url('../Moon Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: Moon-Light;
+	src: url('../Moon Light.otf') format('opentype');
+}
+
+/*
+    CobraCatalog
+	COMP2680
+	Web Project
+
+    Author: Gavin M.D. Edwards & Matthew W. Noel
+    Date:   October 8, 2021
+
+    Filename: monthstyle.css
+*/
+
+/* Section Styles */
+.items
+{
+	display: flex;
+	flex-flow: row wrap;
+	flex: 100%;
+	max-width: 100%;
+}
+
+.items > *
+{
+	max-width: 25%;
+	min-width: 300px;
+	/* flex: 1 1 200px; This specific line breaks the code */
+	padding: 15px 12px;
+	margin:auto;
+}
+
+.items img
+{
+	vertical-align: middle;;
+	box-shadow: 0 5px 10px #404047;
+}
+
+article {
+	display: block;
+
+	background-color: #535261;
+	box-shadow: 0 5px 10px #404047;
+
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 35px;
+
+	padding: 15px 35px;
+
+	white-space: nowrap;
+	text-align: center;
+	font-family:"Moon-Bold", sans-serif;
+	font-size: 16pt;
+}
+
