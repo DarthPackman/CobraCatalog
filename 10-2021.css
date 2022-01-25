@@ -1,0 +1,68 @@
+@charset "utf-8";
+@font-face {
+    font-family: Moon-Bold;
+    src: url('../../Moon Bold.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Moon-Light;
+    src: url('../../Moon Light.otf') format('opentype');
+}
+
+/*table {*/
+/*    margin-left: auto;*/
+/*    margin-right: auto;*/
+/*}*/
+
+/*table img {*/
+/*    height: 180px;*/
+/*}*/
+
+/*#big {*/
+/*    height: 400px;*/
+/*}*/
+
+.collection {
+    display: flex;
+    flex: 1 1 250px;
+    flex-flow: column wrap;
+    height: 1300px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: flex-start;
+    align-content: center;
+
+    align-items: center;
+    max-width: 100%;
+}
+
+.collection > * {
+    width: 250px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.collection img {
+    height: 250px;
+    width: 250px;
+}
+
+.big {
+    width: 900px;
+    flex-grow: 4;
+}
+
+.big img {
+    height: 1200px;
+    width: 900px;
+}
+
+.collection article {
+    font-family: "Microsoft Yi Baiti", sans-serif;
+    font-size: 35px;
+    display: block;
+    text-align: center;
+    background-color: #535261;
+    margin: 10px auto 10px;
+    box-shadow: 0 5px 10px #404047;
+}
